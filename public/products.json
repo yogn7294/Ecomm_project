@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1,
+      "name": "T-shirt",
+      "category": "T-shirt",
+      "brand": "ExampleBrand",
+      "price": 999.99,
+      "stock": 50,
+      "description": "Personalized t-shirt white for men funky baba ",
+      "image": "./images/funky baba.webp"
+    },
+
+    {
+      "id": 2,
+      "name": "T-shirt",
+      "category": "T-shirt",
+      "brand": "T-shirt",
+      "price": 499.99,
+      "stock": 100,
+      "image": "./images/hunt.webp",
+      "description": "Personalized t-shirt white for men hunt or be hunted"
+    },
+    {
+      "id": 3,
+      "name": "T-shirt",
+      "category": "T-shirt",
+      "brand": "T-shirt",
+      "price": 599.99,
+      "stock": 30,
+      "image": "./images/tap girl.jpg",
+      "description": "I'd Tap That Girls T-Shirt"
+    },
+    {
+      "id": 4,
+     "name": "T-shirt",
+      "category": "T-shirt",
+      "brand": "T-shirt",
+      "price": 499.99,
+      "stock": 20,
+      "image": "./images/ek chai.webp",
+      "description": "Printed Quirky & Funny T-Shirts | Buy Graphic Tees Online in India "
+    },
+    {
+      "id": 5,
+      "name": "T-shirt",
+      "category": "T-shirt",
+      "brand": "T-shirt",
+      "price": 799.99,
+      "stock": 30,
+      "image": "./images/old school.webp",
+      "description": "Old school is cool printed t shirts"
+    },
+
+    {
+      "id": 6,
+      "id": 5,
+      "name": "T-shirt",
+      "category": "T-shirt",
+      "brand": "T-shirt",
+      "price": 999.99,
+      "stock": 20,
+      "image": "./images/a game.webp",
+      "description": "Let's Play A Game It's Called Let's Just Go For One Drink T-Shirt"
+    }
+  ]
