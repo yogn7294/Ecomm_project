@@ -2,10 +2,9 @@ const footerHTML = `
   <footer class="section-footer">
     <div class="footer-container container">
       <div class="content_1">
-        <img src="./images/logo.png" alt="logo" />
+        
         <p>
-          Welcome to Thapa EcomStore, <br />
-          your ultimate destination for
+          Welcome to Frivo Store, your ultimate destination for unique, custom-designed t-shirts!
           <br />
           cutting-edge gadgets!
         </p>
@@ -13,10 +12,10 @@ const footerHTML = `
       </div>
       <div class="content_2">
         <h4>SHOPPING</h4>
-        <a href="#">Computer Store</a>
-        <a href="#">Laptop Store</a>
-        <a href="#">Accessories</a>
-        <a href="#">Sales & Discount</a>
+        <a href="#">T-Shirt Store</a>
+          <a href="#">Casuals Store</a>
+          <a href="#">Trending</a>
+          <a href="#">Sales & Discount</a>
       </div>
       <div class="content_3">
         <h4>Experience</h4>
@@ -41,7 +40,7 @@ const footerHTML = `
     </div>
     <div class="f-design">
       <div class="f-design-txt">
-        <p>Design and Code by Thapa Technical</p>
+        <p>Design and Code Frivo</p>
       </div>
     </div>
   </footer>`;

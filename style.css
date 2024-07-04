@@ -87,7 +87,7 @@ a {
 
 /*! layout */
 .container {
-  max-width: 142rem;
+  max-width: 100%;
   margin: 0 auto;
   padding: 9.6rem 2.4rem;
 }
@@ -240,7 +240,7 @@ textarea:focus-visible {
 }
 
 .section-navbar img {
-  width: 25%;
+  width: 85%;
 }
 
 .section-navbar .navbar ul {
@@ -287,10 +287,10 @@ main {
 
   background-image: linear-gradient(
     to top right,
-    #3d86fa,
-    #4484fb,
-    #679eff,
-    #b3d2ff,
+    #f3376c,
+    #e97694,
+    #f690a4,
+    #ffb3b9,
     #ebf3fe
   );
 }
@@ -335,7 +335,7 @@ main .section-hero {
     letter-spacing: 0.2rem;
     font-size: 1.7rem;
     word-spacing: 0.2rem;
-    color: #003b99;
+    color: #99000f;
     font-weight: 700;
   }
 
@@ -344,7 +344,7 @@ main .section-hero {
     line-height: 1.5;
     initial-letter: -0.2rem;
     text-transform: capitalize;
-    color: #003b99;
+    color: #990000;
     font-family: "Jost";
   }
 
@@ -355,9 +355,10 @@ main .section-hero {
 }
 
 .section-hero img {
-  width: 100%;
+  width: 70%;
   height: auto;
   transform: scaleX(-1);
+  margin-left: 50px;
 }
 
 /***** End Hero Section *****/
@@ -386,7 +387,7 @@ main .section-hero {
   & p {
     text-transform: uppercase;
     font-size: 1.4rem;
-    color: #1f36b9;
+    color: #b91f34;
   }
 
   & h3 {
@@ -475,7 +476,7 @@ main .section-hero {
 
   & .icons {
     font-size: 3.2rem;
-    color: #576ef0;
+    color: #f05769;
   }
 
   p {
@@ -940,7 +941,7 @@ footer {
 }
 
 .productRating {
-  color: #e9db16;
+  color: #e91644;
 }
 
 .productPrice,
@@ -977,7 +978,7 @@ footer {
     margin-top: 3.2rem;
 
     p {
-      color: #8c9299;
+      color: #998c8c;
     }
 
     .productSubTotal,
@@ -1029,7 +1030,7 @@ footer {
 
 @media (width <= 1100px) {
   .grid-four--cols {
-    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    grid-template-columns: repeat(rgb(216, 77, 77), minmax(25rem, 1fr));
   }
 
   .custom-shape-divider-bottom-1696038172 svg {
@@ -1090,15 +1091,20 @@ footer {
 
   footer {
     padding: 0 1.6rem;
+    
   }
 
   .footer-container {
+    
     display: grid;
     grid-template-columns: repeat(2, minmax(33%, 1fr));
 
     & .content_1 {
+      
+      padding: 50px;
       grid-column: 1 / -1;
       margin-bottom: 3.2rem;
+      padding: 50px;
     }
 
     & .content_4 {
