@@ -1,7 +1,7 @@
 
-## Ecomm Project
+# Ecomm Project
 
-# Overview
+## Overview
 
 Welcome to the Ecomm Project! This repository contains the source code for a basic e-commerce website. The project is built using HTML, CSS, and JavaScript, with plans to integrate React and Node.js in the future.
 
